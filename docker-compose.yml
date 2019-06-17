@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+
+  gradle-spring:
+    image: gradle:custom
+    container_name: gradle
+    command: /home/gradle/start.sh
