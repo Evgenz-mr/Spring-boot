@@ -3,4 +3,4 @@ if [ ! -f /home/gradle/*.jar ]
 then
     echo "=======STARTING SPRIN_BOOT========"
 fi
-java -jar *.jar 
+java -jar *.jar 2> /dev/null 
